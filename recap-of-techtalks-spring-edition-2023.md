@@ -1,6 +1,6 @@
 ---
 title: Recap of our TechTalks spring edition 2023
-date: 2021-11-23
+date: 2023-05-02
 author: "federicab"
 category: "techtalks"
 tags:
@@ -25,11 +25,11 @@ As a software developer, Emma is always excited to discover new things to learn 
 
 Emma sets the scene by describing us Katie, a mobile developer who works for a company called Chatty which sounds exactly like Tinder but with short video calls instead of pictures. She loves her job but there are a couple of things that niggle her: the app is designed to be addictive and the user data has been shared with third-party.
 
-{% image {src: "./blog/guest-blogs/images/doubts.pdf", alt: "An illustration of Katie thinking 'I don't want to be the person who made this happen', 'If I don't resist who will?', 'Writing the code means I support it' ", widths: [300]} %}
+{% image {src: "./blog/guest-blogs/images/techtalks-spring-2023-img1.pdf", alt: "An illustration of Katie thinking 'I don't want to be the person who made this happen', 'If I don't resist who will?', 'Writing the code means I support it' ", widths: [300]} %}
 
 Emma guides us through the rumbling of thoughts in Katie’s head. Should she just do what she is asked to do? If she doesn’t pit herself against this project, does it mean that she supports it? And if she doesn’t oppose herself who will? And if she does, is she just going to be laid off and replaced by someone who is willing to do it?
 
-{% image {src: "./blog/guest-blogs/images/excuses.pdf", alt: "An illustration of Katie thinking 'I just develop what I'm asked to', 'If I don't do it someone else will', 'Ethics is not part of my job description' ", widths: [300]} %}
+{% image {src: "./blog/guest-blogs/images/techtalks-spring-2023-img2.pdf", alt: "An illustration of Katie thinking 'I just develop what I'm asked to', 'If I don't do it someone else will', 'Ethics is not part of my job description' ", widths: [300]} %}
 
 ### Sharing our personal experience
 
@@ -75,7 +75,7 @@ Rune is a web developer and designer passionate about creating accessible and vi
 
 Let’s start from the basics: web accessibility is the practice of making a website usable for as many people as possible. You have probably come across the shorthand **A11y** (first and last letter of Accessibility and the number of letters in between them) or the symbol.
 
-{% image {src: "./blog/guest-blogs/images/a11y.png", alt: "The accessibility icon: the white shape of a person standing on blue background", widths: [300,600,1000]} %}
+{% image {src: "./blog/guest-blogs/images/techtalks-spring-2023-img3.png", alt: "The accessibility icon: the white shape of a person standing on blue background", widths: [300,600,1000]} %}
 
 The WCAG (Web Content Accessibility Guidelines) is the series of practices and regulations that you have to comply with if you want your website to be accessible.
 
@@ -116,7 +116,7 @@ It is important to **check color contrast** to make test readable for people who
 
 We should also **avoid using color as communication**. For instance in this date picker price is conveyed solely through color which, as you can see from this image, is hard to perceive for color blind people.
 
-{% image {src: "./blog/guest-blogs/images/color-contrast.pdf", alt: "A date picker where the price range is communicated only through color as seen from a color blind person", widths: [300,600,1000]} %}
+{% image {src: "./blog/guest-blogs/images/techtalks-spring-2023-img4.pdf", alt: "A date picker where the price range is communicated only through color as seen from a color blind person", widths: [300,600,1000]} %}
 
 The **Alt Text** is also primordial in visual accessibility. It is an alternative text that you provide for those who are not able to see the image. If there is no alt attribute the screen reader is going to behave slightly differently according to the different software but the baseline is that it is going to ignore the image. Which is fine if the image in purely decorative, but a real problem if an important part of the content is blocked to the person who is navigating the website with the screen reader. A good Alt text should be very accurate, descriptive and factual. Absolutely avoid stuffing the Alt text with keywords just to score high on Google: it is not going to give the intended result and it is going to be an awful experience for those using a screen reader.
 
